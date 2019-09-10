@@ -1,0 +1,33 @@
+{
+  "name": "gatsby-theme-blog-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "gatsby": "^2.15.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.15.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.17",
+    "@mdx-js/mdx": "^1.4.2",
+    "@mdx-js/react": "^1.4.2",
+    "@mdx-js/tag": "^0.20.3",
+    "gatsby-image": "^2.2.16",
+    "gatsby-plugin-mdx": "^1.0.36",
+    "gatsby-plugin-page-creator": "^2.1.16",
+    "gatsby-plugin-react-helmet": "^3.1.6",
+    "gatsby-plugin-sharp": "^2.2.19",
+    "gatsby-plugin-theme-ui": "^0.2.40",
+    "gatsby-source-filesystem": "^2.1.19",
+    "gatsby-transformer-sharp": "^2.2.13",
+    "lodash.kebabcase": "^4.1.1",
+    "mkdirp": "^0.5.1",
+    "theme-ui": "^0.2.40"
+  }
+}
