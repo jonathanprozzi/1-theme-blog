@@ -9,6 +9,11 @@ export default {
     heading: 'system-ui, sans-serif',
     monospace: 'Menlo, monospace',
   },
+  fontSizes: [12, 14, 16, 20, 24, 32, 48, 64],
+  fontWeights: {
+    body: 400,
+    heading: 700,
+  },
   styles: {
     Header: {
       backgroundColor: 'text',
@@ -17,11 +22,13 @@ export default {
     },
     h1: {
       fontFamily: 'heading',
-      fontSize: '20',
+      fontWeight: 'heading',
+      fontSize: 5,
     },
     h2: {
       fontFamily: 'heading',
-      fontSize: '16',
+      fontWeight: 'heading',
+      fontSize: 4,
     },
     a: {
       color: 'text',
