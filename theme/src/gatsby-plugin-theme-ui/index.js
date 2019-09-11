@@ -23,12 +23,12 @@ export default {
     h1: {
       fontFamily: 'heading',
       fontWeight: 'heading',
-      fontSize: 5,
+      fontSize: 6,
     },
     h2: {
       fontFamily: 'heading',
       fontWeight: 'heading',
-      fontSize: 4,
+      fontSize: 5,
     },
     a: {
       color: 'text',
