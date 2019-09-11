@@ -21,7 +21,6 @@ const Layout = ({ children }) => (
     </Header>
     <Main>
       <Container>
-        <Styled.h1>Hello!</Styled.h1>
         {children}
         <PostList></PostList>
       </Container>

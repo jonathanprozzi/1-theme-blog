@@ -25,7 +25,7 @@ const PostTemplate = ({ data }) => {
   return (
     <div>
       <PostLayout
-        title={data.mdx.title}
+        title={data.mdx.frontmatter.title}
         date={data.mdx.frontmatter.date}
         categories={data.mdx.frontmatter.categories}
         excerpt={

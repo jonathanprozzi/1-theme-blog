@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Layout as DefaultLayout, Styled } from 'theme-ui';
+import { jsx, Layout as DefaultLayout, Container, Styled } from 'theme-ui';
 import Layout from '../components/layout';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 
