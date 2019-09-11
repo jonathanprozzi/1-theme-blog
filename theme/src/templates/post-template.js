@@ -8,7 +8,7 @@ export const query = graphql`
       body
       frontmatter {
         title
-        date
+        date(formatString: "MMMM DD, YYYY")
         excerpt
         categories
       }
